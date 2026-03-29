@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+  overflow-x: hidden;
+}
+
+/* Mobile fix */
+@media (max-width: 768px) {
+  section {
+    padding: 20px !important;
+  }
+
+  h1 {
+    font-size: 28px !important;
+  }
+
+  p {
+    font-size: 16px !important;
+  }
+}
